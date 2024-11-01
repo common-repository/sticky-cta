@@ -1,0 +1,125 @@
+/* scta UI Style */
+#scta-container {
+    position: fixed;
+    top: 30%;
+	z-index: 1;
+}
+
+.scta-btns-right {
+    right: 0;
+}
+
+.scta-btns-left {
+    left: 0;
+}
+
+#scta-container ul {
+    padding: 0;
+    margin: 0;
+}
+
+#scta-container ul li {
+    list-style: none;
+    margin: 0;
+}
+
+#scta-container ul li {
+    line-height: 45px;
+}
+
+#scta-container ul li p {
+    margin: 0;
+}
+
+#scta-container ul li a {
+    padding: 0 15px 0 0;
+    display: block;
+    line-height: 45px;
+    text-align: left;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+#scta-container ul li span {
+    line-height: 45px;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+#scta-container.scta-btns-left ul li a {
+    text-align: right;
+    padding: 0 0 0 15px;
+}
+
+#scta-container.scta-btns-left ul li span {
+    float: right;
+}
+
+#scta-container ul li a:hover {
+    text-decoration: none;
+}
+
+#scta-container .scta-share-btn {
+    position: relative;
+}
+
+#scta-container .scta-share-btn span,
+#scta-container.scta-btns-left .scta-share-btn span {
+    float: none;
+}
+
+#scta-container .scta-share-btn a {
+    padding: 0;
+}
+
+#scta-container.scta-btns-left .scta-share-btn i.scta-share-icon {
+    float: right !important;
+}
+
+#scta-container.scta-anim-icons ul li {
+    transition: transform 100ms;
+}
+
+#scta-container.scta-anim-icons.scta-btns-right ul li:hover {
+    transform: translate(-15px, 0);
+}
+
+#scta-container.scta-anim-icons.scta-btns-left ul li:hover {
+    transform: translate(15px, 0);
+}
+
+#scta-container ul li.scta-share-btn:hover .scta-social-popup {
+    display: block;
+}
+
+.scta-social-popup {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    margin: 0 0 0 -50px;
+    width: 155px;
+    display: none;
+}
+
+#scta-container.scta-btns-right .scta-social-popup {
+    right: -100%;
+    margin: 0 0 0 -110px;
+    left: 0;
+}
+
+#scta-container .scta-social-popup a {
+    padding: 0 !important;
+    text-align: left !important;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    .scta-disable-on-mobile {
+        display: none;
+    }
+    /*#scta-container{
+        top: unset !important;
+        bottom: 10% !important;
+    }*/
+}

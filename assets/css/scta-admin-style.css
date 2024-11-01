@@ -1,0 +1,116 @@
+/* Sticky Side Buttons CSS */
+#scta-wrap h1 {
+    margin: 0 0 15px;
+}
+
+#scta-wrap p {
+    margin: 0 0 15px;
+}
+
+#scta-wrap .notice p {
+    margin: .5em 0;
+}
+
+#scta-wrap label {
+    margin: 0;
+    vertical-align: top;
+}
+
+.scta-panel {
+    margin: 0 0 25px;
+    border: #dfdfdf 1px solid;
+    background: #ffffff;
+}
+
+.scta-panel-header {
+    padding: 0 15px;
+    background: #23282D;
+    line-height: 45px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.scta-panel-body {
+    padding: 15px;
+}
+
+.scta-panel-body .scta-row:last-child {
+    margin: 0;
+}
+
+.scta-panel-footer {
+    padding: 15px;
+    border-top: #dfdfdf 1px solid;
+    clear: both;
+}
+
+.scta-row {
+    margin: 0 0 20px;
+    overflow: hidden;
+}
+
+.scta-col {
+    float: left;
+    width: 160px;
+}
+
+#scta-sortable-buttons header {
+    border: #dfdfdf 1px solid;
+    line-height: 40px;
+    padding: 0 18px;
+    background: #fafafa;
+    cursor: move;
+}
+
+#scta-sortable-buttons header i {
+    float: right;
+    line-height: 42px;
+}
+
+.scta-btn-body {
+    border: #dfdfdf 1px solid;
+    border-top: none;
+    padding: 20px 10px 8px 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.scta-btn-body .scta-body-left, .scta-btn-body .scta-body-right {
+    width: 50%;
+    float: left;
+    padding: 0 60px 0 0;
+    box-sizing: border-box;
+}
+
+.scta-btn-body .scta-body-left label, .scta-btn-body .scta-body-right label {
+    display: block;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #000;
+    margin: 0 0 8px 0 !important;
+}
+
+.scta-btn-body .scta-body-left input, .scta-btn-body .scta-body-right input {
+    padding: 7px;
+}
+
+.scta-btn-controls {
+    text-align: right;
+    clear: both;
+}
+
+.scta-iconpicker-container {
+    position: relative;
+}
+
+.scta-icon-preview {
+    position: absolute;
+    top: 29px;
+    right: 1px;
+    background: #EEEEEE;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    display: block;
+    padding: 0 0 0 3px;
+}
